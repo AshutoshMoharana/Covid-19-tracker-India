@@ -1,0 +1,74 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+
+html {
+	height: 100%;
+	width: 100%;
+}
+h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
+    font-size: 250%;
+    color:white;
+    
+}
+
+.title {
+        background: linear-gradient(to right,rgb(61, 25, 25),rgb(29, 17, 17));
+        padding: 20px;
+        /* background-image: url("covid19.gif"); */
+        background-position: center;
+        /* background-size: cover; */
+        /* background-size: 100px 80px; */
+
+        
+    }
+    
+.subtitle {
+        padding: 20px;
+        font-size: 150%;
+}
+
+.container{
+    border: 2px solid none;
+	margin-right: 30%;
+    margin-left: 30%;
+    color: rgb(12, 9, 9);
+    
+}
+.statistics-container{
+    text-align: center;
+	float: right;
+    display: inline-block;
+    
+}
+.Location-container{
+    display: inline-block;
+    margin-right: 300px;
+}
+.footer {
+	font-family: 'Roboto', sans-serif;
+	bottom: 0;
+	font-size: 75%;
+    padding: 5px;
+    margin-top: 300px;
+    color: black ;
+}
+
+body {
+    background-image: url("UHC-half-essential-services.gif");
+    background-color: black;
+    height: 100px; /* You must set a specified height */
+    background-position:center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size:contain; /* Resize the background image to cover the entire container */
+    
+   }
+
